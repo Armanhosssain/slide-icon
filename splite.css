@@ -1,0 +1,49 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+ul{
+	padding: 0;
+	margin: 0;
+}
+ul li{
+	list-style: none;
+	float: left;
+	margin-right: 10px;
+}
+ul li:last-child{
+	margin-right: 0;
+}
+ul li a{
+	height: 70px;
+	width: 78px;
+	background-image: url('facebook.png');
+	background-repeat: no-repeat;
+	display: inline-block;
+	border: 1px solid #ff0000;
+	border-radius: 40%;
+	transition: 1s;
+}
+ul li:hover:nth-child(1) a{
+	background-position: 0px -74px;
+	border-color: #ddd;
+}
+ul li:nth-child(2) a{
+	 background-position: -155px 0px;
+}
+ul li:hover:nth-child(2) a{
+	background-position: -155px -75px;
+	border-color: #ddd;
+}
+ul li:nth-child(3) a{
+	    background-position: -78px 0px;
+}
+ul li:hover:nth-child(3) a{
+	background-position: -78px -75px;
+	border-color: #ddd;
+}
+ul li:hover:nth-child(4) a{
+	background-position: 0px -148px;
+	border-color: #ddd;
+}
